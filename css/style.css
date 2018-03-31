@@ -60,9 +60,35 @@ p {
 .header {
     margin-top: -1px;
     width: 100%;
-    z-index: 9;
     background: url("../img/background.jpg");
     background-size: cover;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+}
+
+header:after {
+    content: '';
+    background: #f8f8fa;
+    width: 120%;
+    height: 40%;
+    display: block;
+    position: absolute;
+    right: -20%;
+    bottom: -13%;
+    transform: rotate(-6deg);
+}
+
+header:before {
+    content: '';
+    background: #263d4f;
+    width: 120%;
+    height: 45%;
+    display: block;
+    position: absolute;
+    left: -20%;
+    bottom: -20%;
+    transform: rotate(15deg);
 }
 
 .navbar {
@@ -79,7 +105,7 @@ p {
 }
 
 .header #welcome {
-    padding: 11rem 0;
+    padding: 6rem 0 20rem 0;
 }
 
 .header #ico {
@@ -164,10 +190,17 @@ a.nav-link {
 .container-fluid {
     padding: 0;
     margin: -0.4rem 0 0 0;
+    position: relative;
 }
 
 section {
     padding: 4rem 0;
+}
+
+#section-internship {
+    padding-top: 0;
+    margin-top: -6rem;
+    z-index: 1;
 }
 
 #section-internship h2 {
@@ -260,6 +293,34 @@ section {
 
 #section-contact {
     text-align: center;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+}
+
+
+#section-contact:after {
+    content: '';
+    background: #f8f8fa;
+    width: 120%;
+    height: 48%;
+    display: block;
+    position: absolute;
+    right: -20%;
+    top: -25%;
+    transform: rotate(3deg);
+}
+
+#section-contact:before {
+    content: '';
+    background: #263d4f;
+    width: 120%;
+    height: 45%;
+    display: block;
+    position: absolute;
+    left: -20%;
+    bottom: -20%;
+    transform: rotate(15deg);
 }
 
 #section-contact button {
