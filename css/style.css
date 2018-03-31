@@ -207,7 +207,7 @@ section {
     margin: 2rem 0;
 }
 
-#section-internship button {
+#section-internship .btn {
     margin-top: 1rem;
 }
 
@@ -323,13 +323,9 @@ section {
     transform: rotate(15deg);
 }
 
-#section-contact button {
+#section-contact .btn {
     color: #fff;
     border-color: #fff;
-}
-
-#section-contact form {
-    display: inline-block;
 }
 
 #section-partners .item {
