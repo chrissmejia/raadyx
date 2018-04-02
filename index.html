@@ -124,32 +124,32 @@
                         </div>
                         <div class="row text-center extra">
                             <div class="col-md-12">
-                                <form>
+                                <form id="internshipForm">
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <input type="text" class="form-control flat" id="firstnameInput" placeholder="First name">
+                                            <input type="text" class="form-control flat" id="firstnameInput" placeholder="First name" required>
                                         </div>
                                         <div class="col-md-6">
-                                            <input type="text" class="form-control flat" id="lastnameInput" placeholder="Last name">
+                                            <input type="text" class="form-control flat" id="lastnameInput" placeholder="Last name" required>
                                         </div>
                                     </div>
                                     <div class="row mt-2">
                                         <div class="col-md-6">
-                                            <input type="email" class="form-control flat" id="emailInput" placeholder="Enter email">
+                                            <input type="email" class="form-control flat" id="emailInput" placeholder="Enter email" required>
                                         </div>
                                         <div class="col-md-4">
-                                            <input type="email" class="form-control flat" id="phoneInput" placeholder="Phone number">
+                                            <input type="text" class="form-control flat" id="phoneInput" placeholder="Phone number" required>
                                         </div>
                                         <div class="col-md-2">
-                                            <input type="text" class="form-control flat" id="sexInput" placeholder="Sex">
+                                            <input type="text" class="form-control flat" id="sexInput" placeholder="Sex" required>
                                         </div>
                                     </div>
                                     <div class="row mt-2">
                                         <div class="col-md-6">
-                                            <input type="text" class="form-control flat" id="countryInput" placeholder="Country">
+                                            <input type="text" class="form-control flat" id="countryInput" placeholder="Country" required>
                                         </div>
                                         <div class="col-md-6">
-                                            <input type="text" class="form-control flat" id="universityInput" placeholder="University">
+                                            <input type="text" class="form-control flat" id="universityInput" placeholder="University" required>
                                         </div>
                                     </div>
                                     <div class="row mt-4">
@@ -159,23 +159,23 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <input type="text" class="form-control" id="monthInput" placeholder="Month">
+                                            <input type="text" class="form-control" id="monthInput" placeholder="Month" required>
                                         </div>
                                         <div class="col-md-3">
-                                            <input type="text" class="form-control" id="dayInput" placeholder="Day">
+                                            <input type="number" class="form-control" id="dayInput" placeholder="Day" required>
                                         </div>
                                         <div class="col-md-3">
-                                            <input type="text" class="form-control" id="yearInput" placeholder="Year">
+                                            <input type="number" class="form-control" id="yearInput" placeholder="Year" required>
                                         </div>
                                     </div>
-                                    <div class="row mt-2">
+                                    <div class="row mt-3">
                                         <div class="col-md-12">
                                             <textarea class="form-control" id="otherText" rows="3"></textarea>
                                         </div>
                                     </div>
                                     <div class="row mt-4">
                                         <div class="col-md-12">
-                                            <a id="sendmail" href="#" class="btn btn-primary">Send mail aplication</a>
+                                            <a id="sendmail" href="#" class="btn btn-primary">Send mail application</a>
                                         </div>
                                     </div>
                                 </form>
@@ -450,6 +450,7 @@
         crossorigin="anonymous"></script>
     <!-- Plugin JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
+
     <script src="js/scripts.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
 
