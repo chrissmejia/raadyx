@@ -197,6 +197,70 @@ section {
     padding: 4rem 0;
 }
 
+#contact .form {
+    display: none;
+}
+
+#contact.js .button {
+    display: none;
+}
+
+#contact.js .form {
+    display: block;
+}
+
+#contact.js .form .extra {
+    display: none;
+}
+
+#contact.js.show .form .extra {
+    display: block;
+}
+
+#contact.js.sent .form .extra {
+    display: none;
+}
+
+#contact.js.sent {
+    padding: 2rem 0;
+    color: #4aac9b;
+    font-size: 1.4rem;
+    display: inline;
+}
+
+#contact.js .sent-message {
+    display: none;
+}
+
+#contact.js.show.sent .sent-message {
+    display: block;
+}
+
+#contact.js.show #apply {
+    display: none;    
+}
+
+#contact form input::placeholder {
+    color: #C0C0C0;
+    font-weight: 300;
+}
+
+#contact form .flat {
+    background: none;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #C0C0C0;
+}
+
+#contact .extra {
+    background: url("../img/angel.png");
+}
+
+#contact .extra form {
+    max-width: 30rem;
+    margin: 2rem auto 0 auto;
+}
+
 #section-internship {
     padding-top: 0;
     margin-top: -6rem;
@@ -297,7 +361,6 @@ section {
     position: relative;
     z-index: 0;
 }
-
 
 #section-contact:after {
     content: '';
