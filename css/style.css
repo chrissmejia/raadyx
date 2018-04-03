@@ -364,31 +364,33 @@ section {
 
 #section-contact:after {
     content: '';
-    background: #f8f8fa;
-    width: 120%;
-    height: 48%;
+    width: 90%;
+    height: 100%;
+    background: #4aac9b;
     display: block;
     position: absolute;
     right: -20%;
-    top: -25%;
-    transform: rotate(3deg);
+    top: 66%;
+    transform: rotate(-13deg);
 }
 
 #section-contact:before {
     content: '';
-    background: #263d4f;
-    width: 120%;
-    height: 45%;
+    background: #f8f8fa;
+    width: 140%;
+    height: 56%;
     display: block;
     position: absolute;
-    left: -20%;
-    bottom: -20%;
-    transform: rotate(15deg);
+    right: -15%;
+    top: -30%;
+    transform: rotate(5deg);
 }
 
 #section-contact .btn {
     color: #fff;
-    border-color: #fff;
+    border-color: #4aac9b;
+    border-width: 2px;
+    margin-top: 4rem;
 }
 
 #section-partners .item {

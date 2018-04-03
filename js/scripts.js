@@ -22,7 +22,7 @@ jQuery(function ($) {
                 $('#sexInput').val() + "%0D%0ACountry: " +
                 $('#countryInput').val() + "%0D%0AUniversity: " +
                 $('#universityInput').val() + "%0D%0ADate of birth: " +
-                $('#monthInput').val() + "/" + $('#dayInput').val() + "/" + $('#monthInput').val() + "%0D%0AIntroduce yourself: " +
+                $('#monthInput').val() + "/" + $('#dayInput').val() + "/" + $('#yearInput').val() + "%0D%0AIntroduce yourself: " +
                 $('#otherText').val();
             $('#contact').addClass("sent");
         });
