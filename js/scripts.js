@@ -15,7 +15,7 @@ jQuery(function ($) {
 
         $('#sendmail').on('click', function (e) {
             e.preventDefault();
-            document.location.href = "mailto:internship@raadyx.com?Subject=Application&body=Name: " +
+            document.location.href = "mailto:interns@raadyx.com?Subject=Application&body=Name: " +
                 $('#firstnameInput').val() + " " + $('#lastnameInput').val() + "%0D%0AEmail: " +
                 $('#emailInput').val() + "%0D%0APhone: " +
                 $('#phoneInput').val() + "%0D%0ASex: " +
